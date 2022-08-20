@@ -8,8 +8,7 @@ sudo apt-get install -y libyaml-cpp-dev libpcap-dev libomp-dev can-utils  libasi
 ```
 
 ```sh
-colcon build --symlink-install --parallel-workers 8
-source install/setup.bash
+colcon build --symlink-install
 echo source install/setup.bash >> ~/.bashrc
 ```
 * Install Ceres
@@ -89,9 +88,5 @@ https://mobaxterm.mobatek.net/
 export display by:
 
 ```sh
-<<<<<<< HEAD
-export DISPLAY=172.16.196.107:0.0  
-=======
 export DISPLAY=172.16.196.215:0.0     
->>>>>>> 46abb26b70ef79b7b03e7065f1dc95574203b9d4
 ```
